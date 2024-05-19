@@ -1,0 +1,11 @@
+.overlay-gradient {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, #3776AB, #FFD43B);
+    mix-blend-mode: multiply;
+    border-radius: 1rem; /* Adjust this to match the border-radius of the parent */
+  }
