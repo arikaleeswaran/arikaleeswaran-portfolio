@@ -27,7 +27,7 @@ const Contact = () => {
                  whileInView={{opacity:1, x:0}}
                  initial={{opacity:0, x:-100}}
                  transition={{duration:1}}
-                className='flex-1 flex justify-center lg:justify-start items-center'>
+                className='flex-1 flex justify-center lg:justify-start items-center py-6'>
                     <div>
                         <h4 className='text-xl uppercase font-normal mb-2 tracking-wide'>Get in touch</h4>
                         <h2 className=' text-4xl lg:text-7xl leading-none mb-12'>Let's work <br/> together!</h2>
