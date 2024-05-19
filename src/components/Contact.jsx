@@ -13,6 +13,7 @@ const Contact = () => {
             .then((result) => {
                 console.log(result.text);
                 alert('Message sent successfully!');
+                e.target.reset();
             }, (error) => {
                 console.log(error.text);
                 alert('Failed to send the message, please try again.');
@@ -44,10 +45,10 @@ const Contact = () => {
                 initial={{opacity:0, x:100}}
                 transition={{duration:1}}
                 className="flex-1 border rounded-2xl flex flex-col gap-y-6 pb-25 p-6 items-start">
-                    <input  className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus border-cyan-300 transition-all ' type="text" placeholder="Your name"></input>
-                    <input  className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus border-cyan-300 transition-all ' type="text" placeholder="Your email"></input>
-                    <textarea className='bg-transparent border-b py-8 outline-none w-full placeholder:text-white focus border-cyan-300 transition-all resize-none mb-8' placeholder="Your message"></textarea>
-                    <button className='px-4 py-2 bg-cyan-500 text-white rounded-lg text-lg hover:bg-cyan-400' type='submit'>Send message</button>
+                    <input  className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus border-cyan-300 transition-all ' type="text" placeholder="Your name" name='user_name'></input>
+                    <input  className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus border-cyan-300 transition-all ' type="email" placeholder="Your email" name='user_email'></input>
+                    <textarea className='bg-transparent border-b py-8 outline-none w-full placeholder:text-white focus border-cyan-300 transition-all resize-none mb-8' placeholder="Your message" name="message"></textarea>
+                    <button className='px-4 py-2 bg-cyan-500 text-white rounded-lg text-lg hover:bg-cyan-400' type='submit' value="Send">Send message</button>
                 </motion.form>
             </div>
         </div>
