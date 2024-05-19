@@ -6,6 +6,7 @@ import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
 import codechef from "../assets/codechef.jpg";
 import codeforce from "../assets/codeforce.png";
+import resume from '../assets/ARIKALEESWARAN G RESUME.pdf'
 
 
 const iconVariants=(duration)=>({
@@ -44,6 +45,15 @@ const About = () => {
             className="w-full lg:w-1/2">
                     <div className="flex justify-center  lg:justify-start">
                         <p className="my-2 max-w-xl py-6 font-light tracking-wide ">{ABOUT_TEXT}</p>
+                    </div>
+                    <div>
+                    <a
+                        href={resume} // The path to your CV file in the public directory
+                        download="ARIKALEESWARAN G RESUME.pdf" // The filename for the downloaded file
+                        className="mt-4 inline-block bg-cyan-500 text-white px-4 py-2 rounded-lg text-lg hover:bg-cyan-400 transition-all"
+                    >
+                    Download CV / Resume
+                    </a>
                     </div>
                     <div className="flex flex-wrap items-center justify-center lg:justify-start  gap-4 p-8">
                         <motion.a 
