@@ -10,8 +10,8 @@ import {Link} from 'react-scroll';
 const Nav = () => {
   return (
     <nav className="fixed bottom-2 lg:bottom-4 w-full overflow-hidden z-50">
-    <div className='container mx-auto px-4 md:px-8'>
-        <div className='w-full bg-black/10 h-[64px] backdrop-blur-xl rounded-full max-w-[460px] mx-auto px-5 flex justify-between text-2xl items-center text-white/50'>
+    <div className='flex justify-center w-full'>
+        <div className='bg-black/10 h-[64px] backdrop-blur-xl rounded-full max-w-[460px] w-full mx-4 lg:mx-auto px-5 flex justify-between text-2xl items-center text-white/50 border border-red-500'>
             <motion.div whileHover={{ scale: 1.1 }}>
                 <Link to="home" smooth={true} duration={500} className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center  hover:bg-cyan-600 rounded-full '>
                     <BiHomeAlt/>
