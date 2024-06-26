@@ -17,7 +17,9 @@ const Projects = () => {
               initial={{opacity:0,x:-100}}
               transition={{duration:1}}
               className="w-full lg:w-1/4">
+                <a href={project.link} target="_blank" rel="noopenner noreferrer">
                 <img src={project.image} width={150} height={150} alt={project.title} className="mb-6 rounded"/>
+                </a>
               </motion.div>
               <motion.div 
               whileHover={{ scale: 1.1, ease: 'easeInOut'}}
