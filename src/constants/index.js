@@ -13,7 +13,7 @@ export const EXPERIENCES = [
     year: "MAY 2024 - Present",
     role: "Networking Intern",
     company: "CISCO Networking Academy",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    description: `Completed Cisco Network Academy's Network Essentials course, gaining hands-on experience in building and managing Ethernet LANs using Cisco Packet Tracer.Developed practical skills in Cisco's IOS and industry-standard networking equipment, preparing for advanced roles in network technology.`,
     technologies: ["Networking", "Packet Tracer"],
   },
   {
