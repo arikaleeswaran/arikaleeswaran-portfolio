@@ -16,20 +16,20 @@ export const EXPERIENCES = [
     description: `Completed Cisco Network Academy's Network Essentials course, gaining hands-on experience in building and managing Ethernet LANs using Cisco Packet Tracer.Developed practical skills in Cisco's IOS and industry-standard networking equipment, preparing for advanced roles in network technology.`,
     technologies: ["Networking", "Packet Tracer"],
   },
-  {
-    year: "NOV 2023 - DEC 2023",
-    role: "Web Development Intern",
-    company: "Prodigy Info Tech",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "JavaScript", "API","Git","GitHub","React.js"],
-  },
-  {
-    year: "NOV 2023 - DEC 2023",
-    role: "UI/UX Design Intern",
-    company: "CodSoft",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Figma","Prototyping"],
-  },
+  // {
+  //   year: "NOV 2023 - DEC 2023",
+  //   role: "Web Development Intern",
+  //   company: "Prodigy Info Tech",
+  //   description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+  //   technologies: ["HTML", "CSS", "JavaScript", "API","Git","GitHub","React.js"],
+  // },
+  // {
+  //   year: "NOV 2023 - DEC 2023",
+  //   role: "UI/UX Design Intern",
+  //   company: "CodSoft",
+  //   description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+  //   technologies: ["Figma","Prototyping"],
+  // },
   {
     year: " MAY 2023 - JUN 2023",
     role: "Web Development Intern",
@@ -56,14 +56,14 @@ export const PROJECTS = [
       "An application for managing tasks and projects, with features such as task creation, completion status and delete the task.",
     technologies: ["React", "CSS", "Express.js", "PostgreSQL"],
   },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    link:"https://arikaleeswaran.vercel.app/",
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React","Tailwind CSS", "Bootstrap"],
-  },
+  // {
+  //   title: "Portfolio Website",
+  //   image: project3,
+  //   link:"https://arikaleeswaran.vercel.app/",
+  //   description:
+  //     "A personal portfolio website showcasing projects, skills, and contact information.",
+  //   technologies: ["React","Tailwind CSS", "Bootstrap"],
+  // },
   {
     title: "SKYCAST",
     image: skycast,
