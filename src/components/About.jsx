@@ -6,7 +6,7 @@ import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
 import codechef from "../assets/codechef.jpg";
 import codeforce from "../assets/codeforce.png";
-import resume from '../assets/ARIKALEESWARAN G RESUME.pdf'
+import resume from '../assets/Arikaleeswaran_G_Resume.pdf';
 
 
 const iconVariants=(duration)=>({
