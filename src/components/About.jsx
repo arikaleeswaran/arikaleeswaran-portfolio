@@ -6,7 +6,7 @@ import linkedin from "../assets/linkedin.png";
 import github from "../assets/github.png";
 import codechef from "../assets/codechef.jpg";
 import codeforce from "../assets/codeforce.png";
-import resume from '../assets/Arikaleeswaran_G_Resume.pdf';
+import resume from "../assets/Arikaleeswaran_G_Resume.pdf";
 
 
 const iconVariants=(duration)=>({
@@ -49,7 +49,7 @@ const About = () => {
                     <div>
                     <a
                         href={resume} // The path to your CV file in the public directory
-                        download="ARIKALEESWARAN G RESUME.pdf" // The filename for the downloaded file
+                        download="ARIKALEESWARAN_G_RESUME.pdf" // The filename for the downloaded file
                         className="mt-4 inline-block bg-cyan-500 text-white px-4 py-2 rounded-lg text-lg hover:bg-cyan-400 transition-all"
                     >
                     Download CV / Resume
